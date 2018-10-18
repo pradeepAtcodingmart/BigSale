@@ -1,0 +1,24 @@
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a{
+  color:black;
+}
+.MuiTableCell-numeric-150 {
+text-align: center !important;
+}
+body {
+  background-color:   #EDEDED
+}
