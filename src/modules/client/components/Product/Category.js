@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 import Products from './Products';
-import SimpleCard from '../../../components/Card/SimpleCard';
+import SimpleCard from '../../../../components/Card/SimpleCard';
 import Button from '@material-ui/core/Button';
-import { restarunts } from '../../../config';
+import { restarunts } from '../../../../config';
 
 export default class Category extends Component {
   constructor() {

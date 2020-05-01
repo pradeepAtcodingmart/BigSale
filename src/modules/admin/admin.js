@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import CardHeader from '../components/Card/CardHeader';
-import CustomizedTable from '../components/Table/CustomizedTable';
-import Login from './auth/login';
+import CardHeader from '../../components/Card/CardHeader';
+import CustomizedTable from '../../components/Table/CustomizedTable';
+import Login from '../auth/login';
+import { isLoggedIn } from '../../services/utils';
 
 export default class Home extends Component {
   render() {
-    const isLoggedIn = JSON.parse(localStorage.getItem('ili'));
-
     return (
       <div>
         {isLoggedIn ? (

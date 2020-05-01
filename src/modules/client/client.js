@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import NavBar from '../components/NavBar/ButtonAppBar';
-import AutoGridNoWrap from './ClientComponents/Product/AutoGridNoWrap';
-import { foodCategories } from '../config';
+import NavBar from '../../components/NavBar/ButtonAppBar';
+import AutoGridNoWrap from './components/Product/AutoGridNoWrap';
+import { foodCategories } from '../../config';
 
 export default class Client extends Component {
   constructor() {

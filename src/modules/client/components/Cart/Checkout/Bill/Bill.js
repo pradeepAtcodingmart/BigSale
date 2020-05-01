@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import NavBar from '../../../../../components/NavBar/ButtonAppBar';
+import NavBar from '../../../../../../components/NavBar/ButtonAppBar';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import { foodCategories } from '../../../../../config';
+import { foodCategories } from '../../../../../../config';
 const styles = (theme) => ({
   container: {
     margin: 'auto',

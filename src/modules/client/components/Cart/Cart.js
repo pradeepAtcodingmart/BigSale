@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import CardList from './CartList';
-import SimpleCard from '../../../components/Card/SimpleCard';
+import SimpleCard from '../../../../components/Card/SimpleCard';
 import Icon from '@material-ui/core/Icon';
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';

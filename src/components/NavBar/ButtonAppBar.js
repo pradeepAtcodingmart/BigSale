@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
 import { restarunts } from '../../config';
+import { isLoggedIn } from '../../services/utils';
 
 const styles = {
   grow: {
@@ -31,14 +32,13 @@ function ButtonAppBar(props) {
     localStorage.setItem('ili', false);
     window.location.reload();
   }
-  console.log(window.location);
-  const isLoggedIn = JSON.parse(localStorage.getItem('ili'));
+
   return (
     <div>
       <AppBar position="static" className={classes.color}>
         <Toolbar>
           <Typography variant="h6" color="inherit" className={classes.grow}>
-            FUNGRY
+            BigSale
           </Typography>
           <Typography color="inherit">
             <Link to="/">
